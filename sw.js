@@ -1,9 +1,10 @@
 const appName = "sample pwa app";
+const root = "/pwa-sample"
 const assets = [    // all files that will be cached
-    "/",
-    "/index.html",
-    "/js/app.js",
-    "/css/style.css",
+    `${root}/`,
+    `${root}/index.html`,
+    `${root}/js/app.js`,
+    `${root}/css/style.css`,
 ]
 
 self.addEventListener("install", (InstallEvent) => {
